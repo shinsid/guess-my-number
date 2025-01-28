@@ -67,7 +67,7 @@ function GameScreen({ userChoice, onGameOver }) {
 
   const guessRoundsListLength = guessRounds.length;
   return (
-    <View>
+    <View style={styles.screen}>
       <Title>Opponent's Guess</Title>
       <NumberContainer>{currentGuess}</NumberContainer>
       <Card>
